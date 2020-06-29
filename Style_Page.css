@@ -1,0 +1,28 @@
+table,th,td,tr{
+    border: 1px solid black;
+    border-collapse: collapse;    
+
+}
+
+table{
+    width: 60%;  
+    margin: auto;
+    box-shadow: -2px 0px 9px -3px;
+}
+
+.Center{
+    text-align: center;
+}
+
+th:nth-child(even){
+    background-color: gray;
+}
+
+th:nth-child(odd){
+    background-color: lightgray;
+}
+
+tr:nth-last-child(1)>td:nth-child(1){
+background-color: maroon;
+color: white;
+}
